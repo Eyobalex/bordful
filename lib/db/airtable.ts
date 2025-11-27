@@ -15,6 +15,7 @@ import type { RemoteRegion, WorkplaceType } from '@/lib/constants/workplace';
 import { normalizeMarkdown } from '@/lib/utils/markdown';
 
 // Initialize Airtable with Personal Access Token
+// Initialize Airtable with Personal Access Token
 const base = new Airtable({
   apiKey: process.env.AIRTABLE_ACCESS_TOKEN,
   endpointUrl: 'https://api.airtable.com',
